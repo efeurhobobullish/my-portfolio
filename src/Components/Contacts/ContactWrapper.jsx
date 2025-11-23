@@ -4,7 +4,7 @@ import styles from "../Styles/contacts.module.css";
 import toast from "react-hot-toast";
 import axios from "axios";
 
-const form_url = "https://submit-form.com/IQCVIiPKz";
+const form_url = "https://submit-form.com/fde0VIvSR";
 const ContactWrapper = () => {
   const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({
