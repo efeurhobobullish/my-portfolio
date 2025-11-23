@@ -44,12 +44,12 @@ export const social_media = [
     },
     {
         name: 'Github',
-        link: 'https://github.com/',
+        link: 'https://github.com/efeurhobobullish',
         iconClass: 'fa-brands fa-github'
     },
     {
         name: 'WhatsApp',
-        link: 'https://wa.me/',
+        link: 'https://wa.me/2348078582627',
         iconClass: 'fa-brands fa-whatsapp'
     }
 ];
