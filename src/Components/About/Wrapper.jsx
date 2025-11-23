@@ -22,7 +22,7 @@ const Wrapper = () => {
             <i className="fa-solid fa-code"></i>&nbsp; The Gist
           </h3>
           <p>
-            Hello, I&apos;m Gift Jackson, a passionate and dedicated Frontend
+            Hello, I&apos;m Empire Tech, a passionate and dedicated Frontend
             Developer with over 2 years of experience. With a strong foundation
             in HTML, CSS, and JavaScript, I specialize in creating dynamic and
             responsive web applications. <br /> <br /> My expertise extends to

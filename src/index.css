@@ -14,38 +14,38 @@
 }
 
 :root {
-  --primary-color: mediumseagreen;
-  --secondary-color: #f7f8f9;
-  --light-bg: #fefefe;
-  --medium-bg: #f5f6f7;
-  --font-color: #4a4a4a;
-  --font-color-light: #777;
-  --border: #eee;
-  --border-focus: #ddd;
-  --shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-  --white: #fefefe;
+  --primary-color: #2563eb; /* Changed to blue */
+  --secondary-color: #ffffff; /* Changed to white */
+  --light-bg: #f8fafc; /* Light blue-white */
+  --medium-bg: #f1f5f9; /* Medium blue-white */
+  --font-color: #1e293b; /* Dark blue-gray */
+  --font-color-light: #64748b; /* Medium blue-gray */
+  --border: #e2e8f0; /* Light blue-gray border */
+  --border-focus: #cbd5e1; /* Medium blue-gray focus */
+  --shadow: 0 5px 10px rgba(30, 41, 59, 0.05); /* Blue-tinted shadow */
+  --white: #ffffff;
   --font-1: "Outfit", system-ui;
   --font-2: "Jaro", system-ui;
 
-  --green: mediumseagreen;
-  --blue: dodgerblue;
-  --orange: orange;
-  --crimson:crimson;
-  --purple:mediumslateblue;
-  --pink: #FE34B9;
+  --green: #10b981; /* Updated green to match blue theme */
+  --blue: #2563eb; /* Blue */
+  --orange: #f59e0b; /* Amber/orange */
+  --crimson: #dc2626; /* Red */
+  --purple: #7c3aed; /* Violet */
+  --pink: #ec4899; /* Pink */
 }
 
 .dark {
-  --primary-color:  mediumseagreen;
-  --secondary-color: #17181f;
-  --light-bg: #20212d;
-  --medium-bg: #30313d;
-  --font-color: #fefefe;
-  --font-color-light: #90919d;
-  --border: #30313d;
-  --border-focus: #70717d;
-  --shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-  --white: #fefefe;
+  --primary-color: #3b82f6; /* Brighter blue for dark mode */
+  --secondary-color: #0f172a; /* Dark blue background */
+  --light-bg: #1e293b; /* Dark blue-gray */
+  --medium-bg: #334155; /* Medium blue-gray */
+  --font-color: #f1f5f9; /* Light blue-gray text */
+  --font-color-light: #94a3b8; /* Medium blue-gray light text */
+  --border: #334155; /* Dark blue border */
+  --border-focus: #475569; /* Medium blue focus */
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --white: #ffffff;
   --font-1: "Outfit", sans-serif;
   --font-2: "Jaro", system-ui;
 }

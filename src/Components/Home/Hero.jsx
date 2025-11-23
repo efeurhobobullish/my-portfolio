@@ -21,7 +21,7 @@ const Hero = () => {
               </button>
             </a>
 
-            <a href="https://github.com/Gift-Jackson" target="_blank">
+            <a href="https://github.com/efeurhobobullish" target="_blank">
               <button className={styles.btn_1}>
                 <span>See Github</span> &nbsp;
                 <i className="fa-solid fa-arrow-right"></i>

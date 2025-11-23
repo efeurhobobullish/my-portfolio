@@ -18,20 +18,19 @@ const ProjectWrapper = () => {
     },
     {
       image: project_2,
-      title: "QuestPay",
+      title: "SwiftPay",
       description:
-        "QuestPay is a fintech web app I developed using React.js and Tailwind CSS, integrating multiple APIs for robust functionality. With QuestPay, users can easily pay bills such as cable subscriptions and electricity, purchase airtime and data at competitive rates, and conduct crypto transactions efficiently.",
+        "SwiftPay is a fintech web app I developed using React.js and Tailwind CSS, integrating multiple APIs for robust functionality. With SwiftPay, users can easily pay bills such as cable subscriptions and electricity, purchase airtime and data at competitive rates, and conduct crypto transactions efficiently.",
       stack: ["Reactjs", "Tailwindcss", "Axios"],
-      live_link: "https://questpaylite.netlify.app/",
+      live_link: "https://swiftpaylite.netlify.app/",
     },
     {
       image: project_3,
-      title: "Online Bookstore",
+      title: "DevHub",
       description:
-        "EGLS, which stands for Exceeding Glory Learning System, is an online bookstore developed using ReactJS and the Google Books API.It allows users to search for and access a wide range of books, articles, and papers by entering the book title or author&apos;s name.",
+        "DevHub is a web app i developed using ReactJS and the Github oauth API.It allows other developers to post jobs connect with other devlopers etc author&apos;s name.",
       stack: ["Reactjs", "CSS", "Axios", "Zustand"],
-      live_link: "https://egls-onlinestore.netlify.app/",
-      github: "https://github.com/Gift-Jackson/egls-react",
+      live_link: "https://devhub.netlify.app/",
     },
     {
       image: project_4,
@@ -39,8 +38,8 @@ const ProjectWrapper = () => {
       description:
         "My portfolio website, developed using React.js, features a dynamic backend powered by Appwrite. This setup allows me to easily add new projects through a dedicated admin section, ensuring my portfolio stays current and showcases my latest work effectively.",
       stack: ["Reactjs", "CSS", "Appwrite"],
-      live_link: "https://giftjacksun-02.netlify.app/",
-      github: "https://github.com/Gift-Jackson/my-portfolio",
+      live_link: "https://empiretech.net.ng/",
+      github: "https://github.com/efeurhobobullish/my-portfolio",
     },
   ];
   return (
@@ -51,7 +50,7 @@ const ProjectWrapper = () => {
         ))}
           </ul>
           <div className="center">
-            <a className={styles.btn} href="https://github.com/Gift-Jackson" target="_blank">
+            <a className={styles.btn} href="https://github.com/efeurhobobullish" target="_blank">
                 See more on GitHub <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
