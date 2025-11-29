@@ -22,7 +22,7 @@ const ProjectWrapper = () => {
       description:
         "SwiftPay is a fintech web app I developed using React.js and Tailwind CSS, integrating multiple APIs for robust functionality. With SwiftPay, users can easily pay bills such as cable subscriptions and electricity, purchase airtime and data at competitive rates, and conduct crypto transactions efficiently.",
       stack: ["Reactjs", "Tailwindcss", "Axios"],
-      live_link: "https://swiftpaylite.netlify.app/",
+      live_link: "https://swiftpay.net.ng",
     },
     {
       image: project_3,
@@ -30,7 +30,7 @@ const ProjectWrapper = () => {
       description:
         "DevHub is a web app i developed using ReactJS and the Github oauth API.It allows other developers to post jobs connect with other devlopers etc author&apos;s name.",
       stack: ["Reactjs", "CSS", "Axios", "Zustand"],
-      live_link: "https://devhub.netlify.app/",
+      live_link: "https://devnet.name.ng/",
     },
     {
       image: project_4,
