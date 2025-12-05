@@ -4,6 +4,7 @@ import project_1 from "../../assets/project-1.png";
 import project_2 from "../../assets/project-2.png";
 import project_3 from "../../assets/project-3.png";
 import project_4 from "../../assets/project-4.png";
+import project_5 from "../../assets/project-5.png"; // <-- Add this image
 
 const ProjectWrapper = () => {
   const projects = [
@@ -28,7 +29,7 @@ const ProjectWrapper = () => {
       image: project_3,
       title: "DevHub",
       description:
-        "DevHub is a web app i developed using ReactJS and the Github oauth API.It allows other developers to post jobs connect with other devlopers etc author&apos;s name.",
+        "DevHub is a web app I developed using ReactJS and the Github OAuth API. It allows developers to share job postings, collaborate, and connect with other developers, making networking easier and more efficient.",
       stack: ["Reactjs", "CSS", "Axios", "Zustand"],
       live_link: "https://devnet.name.ng/",
     },
@@ -41,19 +42,34 @@ const ProjectWrapper = () => {
       live_link: "https://empiretech.net.ng/",
       github: "https://github.com/efeurhobobullish/my-portfolio",
     },
+    {
+  image: project_5,
+  title: "Empire Tech VCF Generator",
+  description:
+    "Empire Tech VCF Generator is a lightweight web tool that allows users to instantly generate personalized VCF contact cards. Built using pure HTML, CSS, and JavaScript, it supports custom contact fields, instant file downloads, and can be used on both Android and iOS, making sharing professional contact information fast and seamless.",
+  stack: ["HTML", "CSS", "JavaScript"],
+  live_link: "https://vcf.empiretech.net.ng/",
+  github: "https://github.com/efeurhobobullish/vcf-generator",
+    },
   ];
+
   return (
     <>
       <ul className={styles.lists}>
         {projects.map((items, index) => (
           <ProjectsCard key={index} {...items} />
         ))}
-          </ul>
-          <div className="center">
-            <a className={styles.btn} href="https://github.com/efeurhobobullish" target="_blank">
-                See more on GitHub <i className="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
+      </ul>
+
+      <div className="center">
+        <a
+          className={styles.btn}
+          href="https://github.com/efeurhobobullish"
+          target="_blank"
+        >
+          See more on GitHub <i className="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
     </>
   );
 };
