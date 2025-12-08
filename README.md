@@ -1,36 +1,95 @@
-# 🚀 Empire Tech - Portfolio
+# my-portfolio
 
-A modern, responsive portfolio website built with React, TypeScript, and Framer Motion. Features a clean black and white design with smooth animations and dark mode support.
+## Overview
+my-portfolio is a personal portfolio website built to showcase projects, skills, and experience in a visually engaging and interactive manner. It is designed primarily for frontend developers, designers, and anyone interested in building or viewing modern web portfolios.
 
-![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-success) ![React](https://img.shields.io/badge/React-18.2.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue) ![Vite](https://img.shields.io/badge/Vite-5.0+-purple)
+## Features
+- Responsive and modern UI with smooth animations
+- Typed text animation for dynamic introductions
+- Client-side routing for seamless navigation
+- Toast notifications for user feedback
+- Easy integration with APIs using Axios
+- Fully interactive and reactive React components
 
-## ✨ Features
+## Tech Stack
+- **Frontend:** React 18, React Router DOM, React Typed, Framer Motion, React Hot Toast
+- **Styling:** CSS
+- **Build Tool:** Vite
+- **HTTP Client:** Axios
+- **Linting:** ESLint with React and hooks plugins
 
-- 🎨 **Modern UI/UX** - Clean black and white design with elegant typography
-- 🌙 **Dark/Light Mode** - Toggle between themes seamlessly
-- 📱 **Fully Responsive** - Optimized for all devices
-- ⚡ **Fast Performance** - Built with Vite for optimal loading
-- 🎭 **Smooth Animations** - Powered by Framer Motion
-- 🛠 **TypeScript** - Type-safe development
-- 🎯 **SEO Optimized** - Clean structure for search engines
+## Getting Started
 
-## 🛠 Tech Stack
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-### Frontend
-- **React 18** - UI Library
-- **TypeScript** - Type Safety
-- **Vite** - Build Tool
-- **Framer Motion** - Animations
-- **CSS Modules** - Styling
-- **React Router** - Navigation
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/efeurhobobullish/my-portfolio.git
+   cd my-portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### Styling
-- Custom CSS with CSS Variables
-- CSS Modules for component-scoped styles
-- Responsive Grid & Flexbox layouts
-- Google Fonts (Outfit, Jaro)
+### Running Locally
+Start the development server with hot reload:
+```bash
+npm run dev
+# or
+yarn dev
+```
+Open your browser at `http://localhost:5173` (default Vite port) to see the site.
 
-### Development
-- **VS Code** - Primary IDE
-- **Git** - Version Control
-- **Vercel or Netlify** - Code Hosting
+### Building for Production
+To create a production-ready build, run:
+```bash
+npm run build
+# or
+yarn build
+```
+Preview the production build locally with:
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Usage
+After starting the development server, navigate through the portfolio to explore different sections such as About, Projects, and Contact. The interactive typed animation introduces the portfolio owner dynamically.
+
+### Example: Using the Typed Text Animation
+The homepage features a React Typed component that animates text to present your roles or skills:
+```jsx
+import ReactTyped from 'react-typed';
+
+function Intro() {
+  return (
+    <ReactTyped
+      strings={['Frontend Developer', 'UI/UX Enthusiast', 'Open Source Contributor']}
+      typeSpeed={40}
+      backSpeed={50}
+      loop
+    />
+  );
+}
+```
+
+## Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m 'Add my feature'`
+4. Push to the branch: `git push origin feature/my-feature`
+5. Open a pull request
+
+Please ensure code follows the ESLint rules and passes linting before submitting.
+
+## License
+This project is private and currently does not have an open source license.
