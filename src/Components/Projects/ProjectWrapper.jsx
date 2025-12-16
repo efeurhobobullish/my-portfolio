@@ -14,7 +14,7 @@ const ProjectWrapper = () => {
       image: project_1,
       title: "Fox Properties",
       description:
-        "Fox Properties is a modern real estate website I developed using Willow API, HTML, CSS, and JavaScript. It features comprehensive property listings, advanced search functionality, and interactive maps. The user-friendly, responsive design ensures a seamless experience, while real-time data integration offers up-to-date market insights and personalized recommendations.",
+        "Fox Properties is a modern real estate website I developed using Willow API, HTML, CSS, and JavaScript.",
       stack: ["HTML", "CSS", "Vanillajs", "Axios"],
       live_link: "https://foxproperties.netlify.app/",
       github: "https://github.com/Gift-Jackson/fox-properties",
@@ -23,7 +23,7 @@ const ProjectWrapper = () => {
       image: project_2,
       title: "SwiftPay",
       description:
-        "SwiftPay is a fintech web app I developed using React.js and Tailwind CSS, integrating multiple APIs for robust functionality. With SwiftPay, users can easily pay bills such as cable subscriptions and electricity, purchase airtime and data at competitive rates, and conduct crypto transactions efficiently.",
+        "SwiftPay is a fintech web app built with React and Tailwind CSS for airtime, data, bills, and crypto transactions.",
       stack: ["Reactjs", "Tailwindcss", "Axios"],
       live_link: "https://swiftpay.net.ng",
     },
@@ -31,7 +31,7 @@ const ProjectWrapper = () => {
       image: project_3,
       title: "DevHub",
       description:
-        "DevHub is a web app I developed using ReactJS and the Github OAuth API. It allows developers to share job postings, collaborate, and connect with other developers, making networking easier and more efficient.",
+        "DevHub is a developer-focused platform using GitHub OAuth for networking and job sharing.",
       stack: ["Reactjs", "CSS", "Axios", "Zustand"],
       live_link: "https://devnet.name.ng/",
     },
@@ -39,7 +39,7 @@ const ProjectWrapper = () => {
       image: project_4,
       title: "My Portfolio",
       description:
-        "My portfolio website, developed using React.js, features a dynamic backend powered by Appwrite. This setup allows me to easily add new projects through a dedicated admin section, ensuring my portfolio stays current and showcases my latest work effectively.",
+        "A React-based portfolio powered by Appwrite with an admin panel for managing projects.",
       stack: ["Reactjs", "CSS", "Appwrite"],
       live_link: "https://empiretech.net.ng/",
       github: "https://github.com/efeurhobobullish/my-portfolio",
@@ -48,18 +48,16 @@ const ProjectWrapper = () => {
       image: project_5,
       title: "Empire Tech VCF Generator",
       description:
-        "Empire Tech VCF Generator is a lightweight web tool that allows users to instantly generate personalized VCF contact cards. Built using pure HTML, CSS, and JavaScript, it supports custom contact fields, instant file downloads, and can be used on both Android and iOS, making sharing professional contact information fast and seamless.",
+        "A lightweight tool for generating downloadable VCF contact cards using pure HTML, CSS, and JavaScript.",
       stack: ["HTML", "CSS", "JavaScript"],
       live_link: "https://vcf.empiretech.net.ng/",
       github: "https://github.com/efeurhobobullish/vcf-generator",
     },
-
-    // PROJECT 6: DOCGEN (README generator)
     {
       image: project_6,
       title: "Docgen – README Generator",
       description:
-        "Docgen is an automated README generator that creates professional `README.md` files from templates and dynamic project metadata. Features include customizable sections (Overview, Installation, Usage, API, Contributing, License), badge and screenshot insertion, license selection, and one-click export/download as a Markdown file. Built to speed up project documentation and ensure consistency across repositories.",
+        "An automated README generator with templates, badges, and Markdown export.",
       stack: ["Reactjs", "Nodejs", "Tailwindcss", "Appwrite"],
       live_link: "https://docgen.empiretech.net.ng/",
       github: "https://github.com/efeurhobobullish/docgen",
@@ -69,16 +67,17 @@ const ProjectWrapper = () => {
   return (
     <>
       <ul className={styles.lists}>
-        {projects.map((items, index) => (
-          <ProjectsCard key={index} {...items} />
+        {projects.map((project, index) => (
+          <ProjectsCard key={index} {...project} />
         ))}
       </ul>
 
-      <div className="center">
+      <div className={styles.center}>
         <a
           className={styles.btn}
           href="https://github.com/efeurhobobullish"
           target="_blank"
+          rel="noopener noreferrer"
         >
           See more on GitHub <i className="fa-solid fa-arrow-right"></i>
         </a>
